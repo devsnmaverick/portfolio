@@ -1,0 +1,795 @@
+commit 9c354a0bc294f63da9d7c0e51be0044df0b40285
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 15:51:09 +0000
+Commit:     dev <devsnmaverick@gmail.com>
+CommitDate: 2026-10-26 15:51:23 +0000
+
+    minor minor changes
+
+diff --git a/index.html b/index.html
+index c9f7cb4..6d1a2ae 100644
+--- a/index.html
++++ b/index.html
+@@ -43,7 +43,7 @@
+ 
+         <section class="skills" id="skills">
+             <div>
+-                <h1>Skills & Levels</h3>
++                <h1>Skills & Levels</h1>
+                     <table width="100%">
+                         <tr>
+                             <th colspan="2">MY STATS</th>
+diff --git a/portfolio.css b/portfolio.css
+index dc3a083..2b37785 100644
+--- a/portfolio.css
++++ b/portfolio.css
+@@ -17,6 +17,7 @@ body {
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
++    max-width: 100%;
+ }
+ 
+ /* header */
+@@ -75,6 +76,7 @@ section {
+ 
+ /* about */
+ .about div {
++    box-sizing: border-box;
+     border: 5px solid rgba(36, 23, 23, 0.849);
+     border-radius: 10px;
+     background-color: rgb(31, 149, 31);
+@@ -193,12 +195,14 @@ td {
+ }
+ 
+ .contact div {
++    box-sizing: border-box;
+     margin: 30px auto;
+     padding: 120px;
+     min-width: 500px;
+ }
+ 
+ .contact input {
++    box-sizing: border-box;
+     margin: 15px 50px;
+     padding: 15px 20px;
+     border-radius: 10px;
+@@ -218,6 +222,7 @@ td {
+ 
+ .contact input,
+ textarea {
++    box-sizing: border-box;
+     color: black;
+     border: none;
+ }
+
+commit eff08d59f26f01ce04e232b6561cf8274fd355d1
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 23:41:09 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 23:41:09 +0800
+
+    Delete CNAME
+
+diff --git a/CNAME b/CNAME
+deleted file mode 100644
+index a9b1cb3..0000000
+--- a/CNAME
++++ /dev/null
+@@ -1 +0,0 @@
+-sa.io
+\ No newline at end of file
+
+commit 81f460e520e49a749c0bcf2aaa5d9fcac1ace757
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 23:40:54 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 23:40:54 +0800
+
+    Create CNAME
+
+diff --git a/CNAME b/CNAME
+new file mode 100644
+index 0000000..a9b1cb3
+--- /dev/null
++++ b/CNAME
+@@ -0,0 +1 @@
++sa.io
+\ No newline at end of file
+
+commit 599a17381dce720c40d25d279433aacb30d8fad8
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 15:37:15 +0000
+Commit:     dev <devsnmaverick@gmail.com>
+CommitDate: 2026-10-26 15:40:25 +0000
+
+    minor changes
+
+diff --git a/portfolio.css b/portfolio.css
+index 056ac80..dc3a083 100644
+--- a/portfolio.css
++++ b/portfolio.css
+@@ -24,7 +24,7 @@ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+-    gap: 80px;
++    gap: 10%;
+     border: 1px solid black;
+     background-color: green;
+     padding: 10px;
+@@ -77,11 +77,10 @@ section {
+ .about div {
+     border: 5px solid rgba(36, 23, 23, 0.849);
+     border-radius: 10px;
+-    margin: 90px auto;
+     background-color: rgb(31, 149, 31);
+-    padding: 110px;
+-    width: 100%;
+-    max-width: 1200px;
++    margin: 70px auto;
++    padding: 40px 100px;
++    width:  100%;
+     display: flex;
+     gap: 80px;
+ }
+@@ -101,9 +100,8 @@ section {
+ 
+ /* skills */
+ .skills div {
+-    margin: 50px auto;
++    margin: 50px 6%;
+     width: 100%;
+-    max-width: 1125px;
+     gap: 80px;
+     text-align: center;
+ }
+
+commit d28c82f37a35e2439f80c12eba7d2650c3df45c0
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 23:13:53 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 23:13:53 +0800
+
+    Delete CNAME
+
+diff --git a/CNAME b/CNAME
+deleted file mode 100644
+index bd7826c..0000000
+--- a/CNAME
++++ /dev/null
+@@ -1 +0,0 @@
+-dada.dev
+\ No newline at end of file
+
+commit 210e3b125eb3ecb4364c2ce5c4af418844a34dea
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 23:13:43 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 23:13:43 +0800
+
+    Create CNAME
+
+diff --git a/CNAME b/CNAME
+new file mode 100644
+index 0000000..bd7826c
+--- /dev/null
++++ b/CNAME
+@@ -0,0 +1 @@
++dada.dev
+\ No newline at end of file
+
+commit 126d86df8a86c10d1c37c098189e0047882e4bd1
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 15:05:25 +0000
+Commit:     dev <devsnmaverick@gmail.com>
+CommitDate: 2026-10-26 15:05:25 +0000
+
+    fixed mobile layout
+
+diff --git a/index.html b/index.html
+index ac54611..c9f7cb4 100644
+--- a/index.html
++++ b/index.html
+@@ -44,7 +44,7 @@
+         <section class="skills" id="skills">
+             <div>
+                 <h1>Skills & Levels</h3>
+-                    <table width="1100">
++                    <table width="100%">
+                         <tr>
+                             <th colspan="2">MY STATS</th>
+                         </tr>
+diff --git a/portfolio.css b/portfolio.css
+index 5f633fb..056ac80 100644
+--- a/portfolio.css
++++ b/portfolio.css
+@@ -80,7 +80,8 @@ section {
+     margin: 90px auto;
+     background-color: rgb(31, 149, 31);
+     padding: 110px;
+-    min-width: 1000px;
++    width: 100%;
++    max-width: 1200px;
+     display: flex;
+     gap: 80px;
+ }
+@@ -101,7 +102,8 @@ section {
+ /* skills */
+ .skills div {
+     margin: 50px auto;
+-    min-width: 1125px;
++    width: 100%;
++    max-width: 1125px;
+     gap: 80px;
+     text-align: center;
+ }
+@@ -147,7 +149,7 @@ td {
+     border-radius: 15px;
+     background-color: rgb(31, 149, 31);
+     margin: 100px 20px;
+-    min-width: 350px;
++    width: 100%;
+     max-width: 350px;
+ }
+ 
+
+commit 3e57b9ed9e91178fffa495235b8906867074188d
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 22:36:55 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 22:36:55 +0800
+
+    Delete CNAME
+
+diff --git a/CNAME b/CNAME
+deleted file mode 100644
+index 29aaff3..0000000
+--- a/CNAME
++++ /dev/null
+@@ -1 +0,0 @@
+-justinportfolio.io
+\ No newline at end of file
+
+commit 421cd676d4dfd7538a4cc21deb114fe35191a288
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 22:34:07 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 22:34:07 +0800
+
+    Create CNAME
+
+diff --git a/CNAME b/CNAME
+new file mode 100644
+index 0000000..29aaff3
+--- /dev/null
++++ b/CNAME
+@@ -0,0 +1 @@
++justinportfolio.io
+\ No newline at end of file
+
+commit dce393de1002df4a51dcdaa16f410ddd26133229
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 13:58:56 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 13:58:56 +0800
+
+    Delete CNAME
+
+diff --git a/CNAME b/CNAME
+deleted file mode 100644
+index 79920f0..0000000
+--- a/CNAME
++++ /dev/null
+@@ -1 +0,0 @@
+-justindev.com
+\ No newline at end of file
+
+commit 6ab1a3ac7fe957250400ed77f0898f86a777fd00
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 13:58:42 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 13:58:42 +0800
+
+    Create CNAME
+
+diff --git a/CNAME b/CNAME
+new file mode 100644
+index 0000000..79920f0
+--- /dev/null
++++ b/CNAME
+@@ -0,0 +1 @@
++justindev.com
+\ No newline at end of file
+
+commit d2b302909d947143850c31f6fcb8d60dc95ea9a3
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 13:57:52 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 13:57:52 +0800
+
+    Adjust profile-gif dimensions in portfolio.css
+
+diff --git a/portfolio.css b/portfolio.css
+index d2207ed..5f633fb 100644
+--- a/portfolio.css
++++ b/portfolio.css
+@@ -86,7 +86,8 @@ section {
+ }
+ 
+ .profile-gif {
+-    width: 450px;
++    height: 450px;
++    width: auto;
+     border: 5px solid rgb(0, 0, 0);
+     border-radius: 8px;
+ }
+@@ -243,4 +244,4 @@ textarea {
+ footer {
+     text-align: center;
+     padding: 10px 0;
+-}
+\ No newline at end of file
++}
+
+commit 0ec6686ce5ec312b8af53aaae80bdd854a729b73
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 13:45:14 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 13:45:14 +0800
+
+    Delete CNAME
+
+diff --git a/CNAME b/CNAME
+deleted file mode 100644
+index 97bb64e..0000000
+--- a/CNAME
++++ /dev/null
+@@ -1 +0,0 @@
+-justinmarkub.com
+\ No newline at end of file
+
+commit b2102004ed0891d129d777358dd578e45e48d114
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 13:44:19 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 13:44:19 +0800
+
+    Create CNAME
+
+diff --git a/CNAME b/CNAME
+new file mode 100644
+index 0000000..97bb64e
+--- /dev/null
++++ b/CNAME
+@@ -0,0 +1 @@
++justinmarkub.com
+\ No newline at end of file
+
+commit 2dd9f535fb28bfbd871a26d2f181a31114245c9f
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 05:41:08 +0000
+Commit:     dev <devsnmaverick@gmail.com>
+CommitDate: 2026-10-26 05:41:08 +0000
+
+    file name changed
+
+diff --git a/portfolio.html b/index.html
+similarity index 100%
+rename from portfolio.html
+rename to index.html
+
+commit 45d4edf404699ce50e1bcf584c09782bf38a4b23
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 05:39:47 +0000
+Commit:     dev <devsnmaverick@gmail.com>
+CommitDate: 2026-10-26 05:39:47 +0000
+
+    my portfolio
+
+diff --git a/minecraft_bg.png b/minecraft_bg.png
+new file mode 100644
+index 0000000..22c9ae0
+Binary files /dev/null and b/minecraft_bg.png differ
+diff --git a/portfolio.css b/portfolio.css
+new file mode 100644
+index 0000000..d2207ed
+--- /dev/null
++++ b/portfolio.css
+@@ -0,0 +1,246 @@
++/* default */
++* {
++    margin: 0;
++    padding: 0;
++    color: white;
++    font-family: "Press Start 2P";
++    text-shadow: 3px 3px 0 black;
++}
++
++html {
++    scroll-behavior: smooth;
++}
++
++body {
++    background-image: url(minecraft_bg.png);
++    background-position: center;
++    background-attachment: fixed;
++    background-repeat: no-repeat;
++    background-size: cover;
++}
++
++/* header */
++.navigation {
++    display: flex;
++    justify-content: center;
++    align-items: center;
++    gap: 80px;
++    border: 1px solid black;
++    background-color: green;
++    padding: 10px;
++}
++
++.navigation a {
++    text-decoration: none;
++    text-shadow: 1px 1px 0 black;
++    font-size: 20px;
++    padding: 5px;
++}
++
++.navigation a:hover {
++    color: rgb(143, 223, 24);
++}
++
++section {
++    min-height: 100vh;
++    display: flex;
++    margin: 30px;
++    justify-content: center;
++    gap: 10%;
++}
++
++/* home */
++.home {
++    align-items: center;
++}
++
++.intro {
++    font-size: 55px;
++    margin-left: 10px;
++    margin-bottom: 200px;
++    line-height: 1.1;
++}
++
++.justin {
++    margin-left: 100px;
++    color: rgba(31, 215, 31, 0.989);
++}
++
++.home p {
++    margin: 0;
++    max-width: 400px;
++    font-size: 30px;
++    line-height: 1.6;
++}
++
++/* about */
++.about div {
++    border: 5px solid rgba(36, 23, 23, 0.849);
++    border-radius: 10px;
++    margin: 90px auto;
++    background-color: rgb(31, 149, 31);
++    padding: 110px;
++    min-width: 1000px;
++    display: flex;
++    gap: 80px;
++}
++
++.profile-gif {
++    width: 450px;
++    border: 5px solid rgb(0, 0, 0);
++    border-radius: 8px;
++}
++
++.about p {
++    font-size: 26px;
++    max-width: 590px;
++    line-height: 1.5;
++}
++
++/* skills */
++.skills div {
++    margin: 50px auto;
++    min-width: 1125px;
++    gap: 80px;
++    text-align: center;
++}
++
++.skills div h1 {
++    color: white;
++    text-shadow: 3px 3px 0 black;
++}
++
++.skills div table {
++    border-spacing: 10px;
++    width: 100%;
++    margin: 20px auto;
++    font-size: 15px;
++}
++
++.skills div th,
++td {
++    border: 3px solid black;
++    background-color: rgb(111, 110, 109);
++    padding: 25px 0;
++}
++
++.skills tr :hover {
++    border: 3px solid white;
++    background-color: rgb(95, 93, 92);
++
++}
++
++/*projects */
++.projects {
++    gap: 30px;
++    text-align: center;
++}
++
++.projects h1 {
++    position: absolute;
++    margin-top: 40px;
++}
++
++.projects div {
++    border: 3px solid black;
++    border-radius: 15px;
++    background-color: rgb(31, 149, 31);
++    margin: 100px 20px;
++    min-width: 350px;
++    max-width: 350px;
++}
++
++.cards h3 {
++    color: rgb(134, 250, 46);
++}
++
++.cards a {
++    text-decoration: none;
++    border: 2px solid rgb(47, 74, 20);
++    border-radius: 10px;
++    background-color: rgb(249, 247, 207);
++    color: #183a24;
++    padding: 14px;
++    display: inline-block;
++    margin-top: 20px;
++    text-shadow: none;
++}
++
++.cards a:hover {
++    background-color: #1f6136;
++    color: white;
++    transition-duration: 0.2s;
++}
++
++.cards h3 {
++    font-size: 19px;
++    margin-top: 10px;
++    padding: 30px;
++    line-height: 1.2;
++}
++
++.cards p {
++    font-size: large;
++    line-height: 1.5;
++    margin: 40px;
++}
++
++/* contact */
++.contact h1 {
++    position: absolute;
++    margin-top: 40px;
++}
++
++.contact div {
++    margin: 30px auto;
++    padding: 120px;
++    min-width: 500px;
++}
++
++.contact input {
++    margin: 15px 50px;
++    padding: 15px 20px;
++    border-radius: 10px;
++    width: 80%;
++    text-shadow: none;
++    font-size: 15px;
++}
++
++.contact textarea {
++    margin: 15px 50px;
++    padding: 25px 20px;
++    border-radius: 10px;
++    width: 80%;
++    text-shadow: none;
++    font-size: 15px;
++}
++
++.contact input,
++textarea {
++    color: black;
++    border: none;
++}
++
++.contact div button {
++    cursor: pointer;
++    border: 2px solid rgb(47, 74, 20);
++    border-radius: 10px;
++    padding: 10px;
++    background-color: rgb(249, 247, 207);
++    color: #183a24;
++    text-shadow: none;
++    display: block;
++    margin: auto;
++}
++
++.contact div button:hover {
++    background-color: #1f6136;
++    color: white;
++    transition-duration: 0.2s;
++}
++
++/* footer */
++footer {
++    text-align: center;
++    padding: 10px 0;
++}
+\ No newline at end of file
+diff --git a/portfolio.html b/portfolio.html
+new file mode 100644
+index 0000000..ac54611
+--- /dev/null
++++ b/portfolio.html
+@@ -0,0 +1,121 @@
++<!DOCTYPE html>
++<html lang="en">
++
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Justin Dev | Portfolio</title>
++    <link rel="stylesheet" href="portfolio.css">
++    <link rel="preconnect" href="https://fonts.googleapis.com">
++    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
++    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
++</head>
++
++<body>
++    <header>
++        <nav class="navigation">
++            <a href="#home">HOME</a>
++            <a href="#about">ABOUT</a>
++            <a href="#skills">SKILLS</a>
++            <a href="#projects">PROJECTS</a>
++            <a href="#contact">CONTACT</a>
++        </nav>
++    </header>
++
++    <main>
++        <section class="home" id="home">
++            <div class="intro">
++                <h1 style="color: lightgreen;">HI, I'M</h1>
++                <h1 class="justin"> JUSTIN!</h1>
++            </div>
++            <p>Built block by block, coded line by line.</p>
++        </section>
++
++        <section class="about" id="about">
++            <div>
++                <img class="profile-gif" src="profile2.gif" alt="Profile picture">
++                <p>Hi, I’m Justin Markub. Unemployed in real life, but a full-time gamer. Currently grinding <span
++                        style="color: greenyellow">XP</span> in web development and hoping this skill tree leads to a
++                    job.</p>
++            </div>
++
++        </section>
++
++        <section class="skills" id="skills">
++            <div>
++                <h1>Skills & Levels</h3>
++                    <table width="1100">
++                        <tr>
++                            <th colspan="2">MY STATS</th>
++                        </tr>
++                        <tr>
++                            <th>SKILL</th>
++                            <th>LEVEL</th>
++                        </tr>
++                        <tr>
++                            <td>HTML</td>
++                            <td>MEDIUM RARE</td>
++                        </tr>
++                        <tr>
++                            <td>CSS</td>
++                            <td>LOW</td>
++                        </tr>
++                        <tr>
++                            <td>JAVA</td>
++                            <td>NOOB</td>
++                        </tr>
++                        <tr>
++                            <td>CISCO</td>
++                            <td>GOOD</td>
++                        </tr>
++                        <tr>
++                            <td>MYSQL</td>
++                            <td>LOW</td>
++                        </tr>
++                    </table>
++            </div>
++        </section>
++
++        <section class="projects" id="projects">
++            <h1>List of Projects</h1>
++            <div class="cards">
++                <h3>Class Schedule Page</h3>
++                <p class="p1">A webpage that organizes and displays a class schedule in a clear table format.</p>
++                <a href="../schedule.html" target="_blank">view</a>
++            </div>
++
++            <div class="cards">
++                <h3>Student Registration</h3>
++                <p class="p2">A webpage with a registration form for collecting student information.</p>
++                <a href="../registration.html" target="_blank">view</a>
++            </div>
++
++            <div class="cards">
++                <h3>Multimedia Showcase</h3>
++                <p class="p3">A multimedia webpage featuring Tony Ferguson vs. Anthony Pettis full fight.</p>
++                <a href="../multimedia.html" target="_blank">view</a>
++            </div>
++        </section>
++
++        <section class="contact" id="contact">
++            <h1>Get In Touch!</h1>
++            <div>
++                <h3>Name</h3>
++                <input type="text" name="name" id="name" placeholder="Your Name">
++                <h3>Email</h3>
++                <input type="email" name="email" id="email" placeholder="you@example.com">
++                <h3>Subject</h3>
++                <input type="text" name="" id="" placeholder="What is this about?">
++                <h3>Message</h3>
++                <textarea name="message" id="message" placeholder="Write your message here..."></textarea>
++                <button type="submit">Submit</button>
++            </div>
++        </section>
++    </main>
++
++    <footer>
++        <p>&copy; 2026 - Justin B. Markub</p>
++    </footer>
++</body>
++
++</html>
+\ No newline at end of file
+diff --git a/profile2.gif b/profile2.gif
+new file mode 100644
+index 0000000..008dafe
+Binary files /dev/null and b/profile2.gif differ
+
+commit de0317cafdcf928682b8d4f12f1c343dfd97c50a
+Author:     dev <devsnmaverick@gmail.com>
+AuthorDate: 2026-10-26 13:38:06 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 13:38:06 +0800
+
+    Initial commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..aee96f6
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1 @@
++# my-portfolio
+\ No newline at end of file

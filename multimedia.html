@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Activity 9</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin:auto 5%;
+        }
+        a, nav {
+            color: white;
+            text-decoration: none;
+            margin: 0px 30px;
+            text-align: center;
+        }
+        .fighters, img {
+            display: flex;
+            justify-content: space-around;
+        }
+        .fighters h2 {
+            margin: 0 50px;
+        }
+        .fighters h4 {
+            margin: 0 50px;
+        }
+        .fighters .record {
+            margin: 0 50px 20px;
+        }
+        img {
+        border: 2px solid white;
+        margin-bottom: 30px;
+        background-color: rgb(17, 16, 16);
+        }
+        article p {
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav label="top_navigation">
+            <h2>
+                <a href="">Home</a>
+                <a href="">News</a>
+                <a href="">Events</a>
+                <a href="">Fighters</a>
+                <a href="">Predictions</a>
+            </h2>
+        </nav>
+        <hr>
+        <h3>UFC 229: KHABIB VS MCGREGOR</h3>
+        <h1>TONY FERGUSON VS ANTHONY PETTIS</h1>
+    </header>
+    <main>
+        <section class="fighters">
+            <div>
+                <h2><label for="ferguson">Tony Ferguson</label></h2>
+                <h4>EL CUCUY</h4>
+                <h4 class="record">25-11-0</h4>
+                <img src="FERGUSON_TONY_L_12-16.webp" alt="tony ferguson" width="280" height="380px">
+            </div>
+            <div>
+                <h2><label for="pettis">Anthony Pettis</label></h2>
+                <h4>SHOWTIME</h4>
+                <h4 class="record">25-14-0</h4>
+                <img src="PETTIS_ANTHONY_L_0.webp" alt="anthony pettis" width="280" height="380px">
+            </div>
+        </section>
+        <hr>
+        <article>
+            <h1>Fight Intelligence</h1>
+            <p>Tony Ferguson won this fight by KO/TKO in round 2 at 04:57. The bout was an exciting back-and-forth contest at UFC 229. Ferguson kept the pressure on with his forward movement and striking, while Anthony Pettis answered with quick counters and powerful shots. Both fighters showed toughness and kept exchanging attacks, making the fight entertaining for the crowd. After the second round, Pettis's corner stopped the fight because of a hand injury, giving Ferguson the TKO victory. Their performance earned Fight of the Night honors. Tony Ferguson led more tracked fight-stat categories from the recorded round totals. Attempt-rate stats such as 1 of 4 takedowns require attempt fields from the legacy API before Combat Edge can calculate them accurately.</p>
+        </article>
+        <div>
+            <iframe width="1383" height="494" src="https://www.youtube.com/embed/VmCTYPLsP6c" title="Тони Фергюсон vs Энтони Петтис: Вспоминаем бой" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+</body>
+</html>

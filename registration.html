@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UC-Registration</title>
+    <style>
+        img {
+            width: 300px;
+            height: auto;
+        }
+
+        header {
+            background-color: rgba(0, 128, 0, 0.868);
+            width: 100%;
+        }
+
+        body {
+            margin: 0;
+            background-color: rgb(208, 223, 236);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form {
+            padding: 20px;
+            width: 420px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 12px;
+        }
+
+        div {
+            margin-bottom: 11px;
+        }
+
+        label {
+            font-weight: 600;
+        }
+
+        .fname,
+        .lname,
+        .studentID,
+        .password,
+        .email,
+        .bdate,
+        .address {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 11px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        select,
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 4px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="uc_logo_green_ext_h150.png" alt="uc_logo">
+    </header>
+
+    <form>
+        <center>
+            <h3>Registration for 2027</h3>
+        </center>
+
+        <div style="display: flex; gap: 12%;">
+            <div>
+                <label for="fname">Student's Name</label><br>
+                <input class="fname" type="text" id="fname" placeholder="First Name" required>
+            </div>
+
+            <div>
+                <br><input class="lname" type="text" placeholder="Last Name" required>
+            </div>
+        </div>
+
+        <div>
+            <label for="studentID">Student ID</label><br>
+            <input class="studentID" type="text" id="studentID" placeholder="00-0000-000" maxlength="10" required>
+        </div>
+
+        <div style="display: flex; gap: 50px;">
+            <div>
+                <label for="password">Password</label><br>
+                <input class="password" type="password" id="password" minlength="8" maxlength="20"
+                    placeholder="At least 8 characters" required>
+            </div>
+
+            <div>
+                <label for="email">Email</label><br>
+                <input class="email" type="email" id="email" placeholder="ex: user123@gmail.com" maxlength="50"
+                    required>
+            </div>
+        </div>
+
+        <div style="display: flex; gap: 24%;">
+            <div>
+                <label for="bdate">Date of Birth</label><br>
+                <input class="bdate" type="date" id="bdate" required>
+            </div>
+
+            <div>
+                <label>Gender</label><br>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="Male" required>
+
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="Female">
+            </div>
+        </div>
+
+        <div style="display: flex; gap: 7%;">
+            <div>
+                <label for="program">Program</label><br>
+                <select name="program" id="program" required>
+                    <option value="" selected disabled>Select Program</option>
+                    <option value="BSIT">BS Information Technology</option>
+                    <option value="BSCS">BS Computer Science</option>
+                    <option value="BSBA">BS Business Administration</option>
+                    <option value="BSA">BS Accountancy</option>
+                    <option value="BSPsych">BS Psychology</option>
+                    <option value="BSN">BS Nursing</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="hobbies">Hobbies</label><br>
+                <select name="hobbies" id="hobbies" required>
+                    <option value="" selected disabled>Select Hobbies</option>
+                    <option value="Reading">Reading</option>
+                    <option value="">Sports</option>
+                    <option value="">Music</option>
+                    <option value="">Drawing</option>
+                    <option value="">Traveling</option>
+                    <option value="">Gaming</option>
+                </select>
+            </div>
+        </div>
+
+        <div>
+            <label for="Address">Address</label><br>
+            <input class="address" type="text" id="address" maxlength="100" placeholder="Type Address" required>
+        </div>
+
+        <div>
+            <label for="comments">Comments</label><br>
+            <textarea name="comments" id="comments" rows="4"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>
